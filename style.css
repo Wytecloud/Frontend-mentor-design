@@ -6,7 +6,8 @@
 
 body {
     background-color: hsl(30, 38%, 92%);
-    /* height: 120vh; */
+    overflow: hidden;
+    /* height: 100vh; */
 }
 section {
     display: flex;
@@ -106,5 +107,5 @@ button:hover {
 .attribution {
     position: absolute;
     bottom: 0;
-    padding-bottom: 1px;
+    padding-bottom: 4px;
 }
