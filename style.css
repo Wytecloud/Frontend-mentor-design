@@ -110,7 +110,7 @@ button:hover {
     padding-bottom: 4px;
 }
 
-@media only screen and (max-width: 500px) {
+@media (max-width: 650px) {
     
     .card {
         flex-direction: column;
