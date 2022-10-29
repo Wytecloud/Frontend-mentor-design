@@ -110,12 +110,13 @@ button:hover {
     padding-bottom: 4px;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 480px) {
     
     .card {
         flex-direction: column;
-        width: 80%;
-        margin: 50px 0;
+        height: 91vh;
+        width: 90%;
+        /* margin: 50px 0; */
     }
 
     img {
@@ -128,7 +129,7 @@ button:hover {
     }
 
     .content {
-        padding: 34px;
+        padding: 20px 20px
     }
 
     header {
@@ -137,6 +138,7 @@ button:hover {
     }
 
     h1 {
+        padding: 10px 0;
         font-size: 35px;
     }
 
@@ -145,7 +147,7 @@ button:hover {
     }
 
     .price {
-        padding: 10px 0;
+        padding: 5px 0;
         gap: 20px;
     }
 
