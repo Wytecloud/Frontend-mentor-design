@@ -26,9 +26,9 @@ Users should be able to:
 
 ### Screenshot
 
-![Desktop view of Product preview card component challenge](results screenshots/desktop-view.jpeg)
+![Desktop view of Product preview card component challenge](screenshots/desktop-view.jpeg)
 
-![Mobile view of Product preview card component challenge](results screenshots/mobile-view.jpeg)
+![Mobile view of Product preview card component challenge](screenshots/mobile-view.jpeg)
 
 ### Links
 
