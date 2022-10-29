@@ -112,11 +112,16 @@ button:hover {
 }
 
 @media (max-width: 480px) {
+
+    section {
+        height: 100vh;
+    }
     
     .card {
         flex-direction: column;
-        height: 91vh;
         width: 90%;
+        /* justify-content: center; */
+        /* align-items: center; */
         /* margin: 50px 0; */
     }
 
@@ -164,4 +169,128 @@ button:hover {
     .icon {
         width: 17px;
     }
+
+    .attribution {
+        display: flex;
+    }
   }
+
+  @media (max-width: 376px) {
+
+    section {
+        height: 100vh;
+    }
+    
+    .card {
+        transform: scale(0.85);
+        flex-direction: column;
+        width: 90%;
+        /* justify-content: center; */
+        /* align-items: center; */
+        /* margin: 50px 0; */
+    }
+
+    img {
+        content: url("images/image-product-mobile.jpg");
+        width: 100%;
+    }
+
+    .icon {
+        content: url("images/icon-cart.svg");
+    }
+
+    .content {
+        padding: 10px 15px
+    }
+
+    header {
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    h1 {
+        padding: 10px 0;
+        font-size: 35px;
+        /* font-size: 2.188rem; */
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    .price {
+        padding: 0px 0;
+        gap: 20px;
+    }
+
+    .price p:first-child {
+        font-size: 2.3rem;
+    }
+
+    button {
+        font-size: 16px;
+    }
+
+    .icon {
+        width: 17px;
+    }
+
+  }
+/* 
+  @media (max-height: 737px) and (max-width: 376px) {
+
+    section {
+        height: 100vh;
+    }
+    
+    .card {
+        transform: scale(0.85);
+        flex-direction: column;
+        width: 90%;
+    }
+
+    img {
+        content: url("images/image-product-mobile.jpg");
+        width: 100%;
+    }
+
+    .icon {
+        content: url("images/icon-cart.svg");
+    }
+
+    .content {
+        padding: 10px 15px
+    }
+
+    header {
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    h1 {
+        padding: 10px 0;
+        font-size: 35px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    .price {
+        padding: 0px 0;
+        gap: 20px;
+    }
+
+    .price p:first-child {
+        font-size: 2.3rem;
+    }
+
+    button {
+        font-size: 16px;
+    }
+
+    .icon {
+        width: 17px;
+    }
+
+  } */
