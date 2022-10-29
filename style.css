@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+
+a {
+    color: hsl(0, 0%, 100%);
+}
 body {
     background-color: hsl(30, 38%, 92%);
     overflow: hidden;
