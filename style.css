@@ -69,6 +69,7 @@ p {
 
 .price p {
     text-decoration: 0.1px line-through;
+    -webkit-text-decoration-line: line-through;
 }
 .price p:first-child {
     text-decoration: none;
