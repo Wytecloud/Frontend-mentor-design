@@ -62,6 +62,6 @@ I am aim to be able to implement responsive designs in all future works and push
 
 ## Author
 
-- Website - [Vadim Boamah](https://www.your-site.com)
+- Website - [Vadim Boamah](https://wytecloud.github.io/Frontend-mentor-design/)
 - Frontend Mentor - [@Wytecloud](https://www.frontendmentor.io/profile/Wytecloud)
 - Twitter - [@Wytecloud](https://twitter.com/Wytecloud)
